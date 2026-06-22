@@ -3,14 +3,19 @@
     "name": "attendease",
     "slug": "attendease",
     "version": "0.0.0",
+    "runtimeVersion": { "policy": "appVersion" },
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "attendease",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "bundleIdentifier": "com.monsurcodes.attendease",
+      "buildNumber": "1",
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "package": "com.monsurcodes.attendease",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",

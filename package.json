@@ -10,6 +10,9 @@
     "web": "expo start --web",
     "lint": "expo lint --fix",
     "format": "prettier . --write",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -57,6 +60,8 @@
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
     "prettier": "^3.8.4",
+    "standard-version": "^9.5.0",
+    "standard-version-expo": "^1.0.3",
     "typescript": "~6.0.3"
   }
 }
