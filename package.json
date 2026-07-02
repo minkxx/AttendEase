@@ -50,7 +50,7 @@
     "react-native-worklets": "0.8.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^21.0.2",
+    "@commitlint/cli": "^21.2.0",
     "@commitlint/config-conventional": "^21.2.0",
     "@types/react": "~19.2.2",
     "eslint": "^9.39.4",
@@ -59,7 +59,7 @@
     "eslint-plugin-prettier": "^5.5.6",
     "husky": "^9.1.7",
     "lint-staged": "^17.0.8",
-    "prettier": "^3.8.4",
+    "prettier": "^3.9.4",
     "standard-version": "^9.5.0",
     "standard-version-expo": "^1.0.3",
     "typescript": "~6.0.3"
