@@ -43,3 +43,6 @@ example
 # generated native folders
 /ios
 /android
+
+# project snapshot
+project-snapshot-frontend.md
