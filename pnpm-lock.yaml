@@ -10,15 +10,15 @@ importers:
     dependencies:
       '@better-auth/expo':
         specifier: ^1.6.23
-        version: 1.6.23(@better-auth/core@1.6.23(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-call@1.3.7(zod@4.4.3))(jose@6.2.3)(kysely@0.29.2)(nanostores@1.4.0))(better-auth@1.6.23(react-dom@19.2.3(react@19.2.7))(react@19.2.7))(expo-constants@57.0.3)(expo-linking@57.0.1)(expo-network@57.0.0(expo@57.0.2)(react@19.2.7))(expo-web-browser@57.0.0(expo@57.0.2)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7)))
+        version: 1.6.23(@better-auth/core@1.6.23(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-call@1.3.7(zod@4.4.3))(jose@6.2.3)(kysely@0.29.2)(nanostores@1.4.0))(better-auth@1.6.23(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(expo-constants@57.0.3)(expo-linking@57.0.2)(expo-network@57.0.0(expo@57.0.4)(react@19.2.3))(expo-web-browser@57.0.0(expo@57.0.4)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3)))
       '@expo/ui':
         specifier: ~57.0.3
-        version: 57.0.3(@babel/core@7.29.7)(@types/react@19.2.17)(expo@57.0.2)(react-dom@19.2.3(react@19.2.7))(react-native-worklets@0.10.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))(react@19.2.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)
+        version: 57.0.4(@babel/core@7.29.7)(@types/react@19.2.17)(expo@57.0.4)(react-dom@19.2.3(react@19.2.3))(react-native-worklets@0.10.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3)
       better-auth:
         specifier: ^1.6.23
-        version: 1.6.23(react-dom@19.2.3(react@19.2.7))(react@19.2.7)
+        version: 1.6.23(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       expo:
-        specifier: ~57.0.4
+        specifier: ~57.0.2
         version: 57.0.4(@babel/core@7.29.7)(@expo/dom-webview@56.0.5)(@expo/metro-runtime@57.0.3)(expo-router@57.0.4)(react-dom@19.2.3(react@19.2.3))(react-native-web@0.21.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-native-worklets@0.10.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3)(typescript@6.0.3)
       expo-constants:
         specifier: ~57.0.3
@@ -37,16 +37,16 @@ importers:
         version: 57.0.0(expo@57.0.4)(react-native-web@0.21.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3)
       expo-linking:
         specifier: ~57.0.1
-        version: 57.0.1(expo@57.0.2)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)
+        version: 57.0.2(expo@57.0.4)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3)
       expo-network:
         specifier: ^57.0.0
-        version: 57.0.0(expo@57.0.2)(react@19.2.7)
+        version: 57.0.0(expo@57.0.4)(react@19.2.3)
       expo-router:
-        specifier: ~57.0.3
-        version: 57.0.3(4a8514851740d8bb73922adabffa9b23)
+        specifier: ~57.0.4
+        version: 57.0.4(2a65daf3c909213facf431583c17dc0c)
       expo-secure-store:
         specifier: ^57.0.0
-        version: 57.0.0(expo@57.0.2)
+        version: 57.0.0(expo@57.0.4)
       expo-splash-screen:
         specifier: ~57.0.2
         version: 57.0.2(expo@57.0.4)(typescript@6.0.3)
@@ -1070,9 +1070,6 @@ packages:
 
   '@expo/config@3.3.43':
     resolution: {integrity: sha512-5a78fQqTKk7RhgrW5XzHS8ylCo9YRjZrheLyVDNNfvwAD8YjeBz6bFWsItZPpAIoaDgkLh0a8uhc11DCmqoKpw==}
-
-  '@expo/config@57.0.2':
-    resolution: {integrity: sha512-J/K4fBPs/wGMrK445Mz5fCuFhsOZjSEq+u7F0yCboCwQu+uPlkT/ZCi6/q5pOunFOTICFtLB5wfCKqf9Iz5iKA==}
 
   '@expo/config@57.0.3':
     resolution: {integrity: sha512-IshqjjpGtT7wj86pxgsfMD1/abNMfu1wZ07ubyYO29l+PWa0eAh2TcpyLcyBaqo01IonF6646xWwrCPcdlUl3Q==}
@@ -3183,8 +3180,8 @@ packages:
       expo: '*'
       react: '*'
 
-  expo-router@57.0.3:
-    resolution: {integrity: sha512-Pm9CYn6WSyTM3pfmUJxQHkS/bzCzX1G+IJBRsXLE/MyOOWyfkM/Lu1/UiAlCyHOCuCWe2SuA5jrIE00+5qF9pQ==}
+  expo-router@57.0.4:
+    resolution: {integrity: sha512-JVUAxamOQV7oG/uo/itLuR8gLiN3+C00bg/JPU+p/g/8Mx3PceZ4Mga/34cLmMc+RETpi5EjC/+AN0mJJzOW3w==}
     peerDependencies:
       '@expo/log-box': ^57.0.0
       '@expo/metro-runtime': ^57.0.3
@@ -6786,18 +6783,18 @@ snapshots:
       '@better-auth/core': 1.6.23(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-call@1.3.7(zod@4.4.3))(jose@6.2.3)(kysely@0.29.2)(nanostores@1.4.0)
       '@better-auth/utils': 0.4.2
 
-  '@better-auth/expo@1.6.23(@better-auth/core@1.6.23(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-call@1.3.7(zod@4.4.3))(jose@6.2.3)(kysely@0.29.2)(nanostores@1.4.0))(better-auth@1.6.23(react-dom@19.2.3(react@19.2.7))(react@19.2.7))(expo-constants@57.0.3)(expo-linking@57.0.1)(expo-network@57.0.0(expo@57.0.2)(react@19.2.7))(expo-web-browser@57.0.0(expo@57.0.2)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7)))':
+  '@better-auth/expo@1.6.23(@better-auth/core@1.6.23(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-call@1.3.7(zod@4.4.3))(jose@6.2.3)(kysely@0.29.2)(nanostores@1.4.0))(better-auth@1.6.23(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(expo-constants@57.0.3)(expo-linking@57.0.2)(expo-network@57.0.0(expo@57.0.4)(react@19.2.3))(expo-web-browser@57.0.0(expo@57.0.4)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3)))':
     dependencies:
       '@better-auth/core': 1.6.23(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-call@1.3.7(zod@4.4.3))(jose@6.2.3)(kysely@0.29.2)(nanostores@1.4.0)
       '@better-fetch/fetch': 1.3.1
-      better-auth: 1.6.23(react-dom@19.2.3(react@19.2.7))(react@19.2.7)
+      better-auth: 1.6.23(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       better-call: 1.3.7(zod@4.4.3)
       zod: 4.4.3
     optionalDependencies:
-      expo-constants: 57.0.3(expo@57.0.2)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))
-      expo-linking: 57.0.1(expo@57.0.2)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)
-      expo-network: 57.0.0(expo@57.0.2)(react@19.2.7)
-      expo-web-browser: 57.0.0(expo@57.0.2)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))
+      expo-constants: 57.0.3(expo@57.0.4)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))
+      expo-linking: 57.0.2(expo@57.0.4)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3)
+      expo-network: 57.0.0(expo@57.0.4)(react@19.2.3)
+      expo-web-browser: 57.0.0(expo@57.0.4)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))
 
   '@better-auth/kysely-adapter@1.6.23(@better-auth/core@1.6.23(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-call@1.3.7(zod@4.4.3))(jose@6.2.3)(kysely@0.29.2)(nanostores@1.4.0))(@better-auth/utils@0.4.2)(kysely@0.29.2)':
     dependencies:
@@ -7183,22 +7180,6 @@ snapshots:
       - encoding
       - supports-color
 
-  '@expo/config@57.0.2(typescript@6.0.3)':
-    dependencies:
-      '@expo/config-plugins': 57.0.2(typescript@6.0.3)
-      '@expo/config-types': 57.0.1
-      '@expo/json-file': 11.0.0
-      '@expo/require-utils': 57.0.1(typescript@6.0.3)
-      deepmerge: 4.3.1
-      getenv: 2.0.0
-      glob: 13.0.6
-      resolve-workspace-root: 2.0.1
-      semver: 7.8.5
-      slugify: 1.6.9
-    transitivePeerDependencies:
-      - supports-color
-      - typescript
-
   '@expo/config@57.0.3(typescript@6.0.3)':
     dependencies:
       '@expo/config-plugins': 57.0.3(typescript@6.0.3)
@@ -7329,7 +7310,7 @@ snapshots:
 
   '@expo/local-build-cache-provider@57.0.2(typescript@6.0.3)':
     dependencies:
-      '@expo/config': 57.0.2(typescript@6.0.3)
+      '@expo/config': 57.0.3(typescript@6.0.3)
       chalk: 4.1.2
     transitivePeerDependencies:
       - supports-color
@@ -7349,7 +7330,7 @@ snapshots:
       '@babel/code-frame': 7.29.7
       '@babel/core': 7.29.7
       '@babel/generator': 7.29.7
-      '@expo/config': 57.0.2(typescript@6.0.3)
+      '@expo/config': 57.0.3(typescript@6.0.3)
       '@expo/env': 2.4.1
       '@expo/json-file': 11.0.0
       '@expo/metro': 56.0.0
@@ -7449,7 +7430,7 @@ snapshots:
 
   '@expo/prebuild-config@57.0.5(typescript@6.0.3)':
     dependencies:
-      '@expo/config': 57.0.2(typescript@6.0.3)
+      '@expo/config': 57.0.3(typescript@6.0.3)
       '@expo/config-plugins': 57.0.3(typescript@6.0.3)
       '@expo/config-types': 57.0.1
       '@expo/image-utils': 0.11.1(typescript@6.0.3)
@@ -8712,7 +8693,7 @@ snapshots:
 
   baseline-browser-mapping@2.10.41: {}
 
-  better-auth@1.6.23(react-dom@19.2.3(react@19.2.7))(react@19.2.7):
+  better-auth@1.6.23(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       '@better-auth/core': 1.6.23(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-call@1.3.7(zod@4.4.3))(jose@6.2.3)(kysely@0.29.2)(nanostores@1.4.0)
       '@better-auth/drizzle-adapter': 1.6.23(@better-auth/core@1.6.23(@better-auth/utils@0.4.2)(@better-fetch/fetch@1.3.1)(better-call@1.3.7(zod@4.4.3))(jose@6.2.3)(kysely@0.29.2)(nanostores@1.4.0))(@better-auth/utils@0.4.2)
@@ -8732,8 +8713,8 @@ snapshots:
       nanostores: 1.4.0
       zod: 4.4.3
     optionalDependencies:
-      react: 19.2.7
-      react-dom: 19.2.3(react@19.2.7)
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
     transitivePeerDependencies:
       - '@cloudflare/workers-types'
       - '@opentelemetry/api'
@@ -9721,12 +9702,12 @@ snapshots:
     dependencies:
       react-native: 0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3)
 
-  expo-network@57.0.0(expo@57.0.2)(react@19.2.7):
+  expo-network@57.0.0(expo@57.0.4)(react@19.2.3):
     dependencies:
-      expo: 57.0.2(@babel/core@7.29.7)(@expo/dom-webview@56.0.5)(@expo/metro-runtime@57.0.3)(expo-router@57.0.3)(react-dom@19.2.3(react@19.2.7))(react-native-web@0.21.2(react-dom@19.2.3(react@19.2.7))(react@19.2.7))(react-native-worklets@0.10.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))(react@19.2.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)(typescript@6.0.3)
-      react: 19.2.7
+      expo: 57.0.4(@babel/core@7.29.7)(@expo/dom-webview@56.0.5)(@expo/metro-runtime@57.0.3)(expo-router@57.0.4)(react-dom@19.2.3(react@19.2.3))(react-native-web@0.21.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-native-worklets@0.10.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3)(typescript@6.0.3)
+      react: 19.2.3
 
-  expo-router@57.0.3(4a8514851740d8bb73922adabffa9b23):
+  expo-router@57.0.4(2a65daf3c909213facf431583c17dc0c):
     dependencies:
       '@expo/log-box': 57.0.0(@expo/dom-webview@56.0.5)(expo@57.0.4)(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3)
       '@expo/metro-runtime': 57.0.3(@expo/log-box@57.0.0)(expo@57.0.4)(react-dom@19.2.3(react@19.2.3))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3)
@@ -9777,9 +9758,9 @@ snapshots:
       - react-native-worklets
       - supports-color
 
-  expo-secure-store@57.0.0(expo@57.0.2):
+  expo-secure-store@57.0.0(expo@57.0.4):
     dependencies:
-      expo: 57.0.2(@babel/core@7.29.7)(@expo/dom-webview@56.0.5)(@expo/metro-runtime@57.0.3)(expo-router@57.0.3)(react-dom@19.2.3(react@19.2.7))(react-native-web@0.21.2(react-dom@19.2.3(react@19.2.7))(react@19.2.7))(react-native-worklets@0.10.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))(react@19.2.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.7))(react@19.2.7)(typescript@6.0.3)
+      expo: 57.0.4(@babel/core@7.29.7)(@expo/dom-webview@56.0.5)(@expo/metro-runtime@57.0.3)(expo-router@57.0.4)(react-dom@19.2.3(react@19.2.3))(react-native-web@0.21.2(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-native-worklets@0.10.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3))(react-native@0.86.0(@babel/core@7.29.7)(@react-native/metro-config@0.86.0(@babel/core@7.29.7))(@types/react@19.2.17)(react@19.2.3))(react@19.2.3)(typescript@6.0.3)
 
   expo-server@57.0.0: {}
 
